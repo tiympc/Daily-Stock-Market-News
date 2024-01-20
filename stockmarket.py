@@ -37,5 +37,5 @@ with open('output.txt', 'w', encoding='utf-8') as file:
     file.write(modified_text)
 
 print("Output written to output.txt")
-#os.system("lpr -P Brother_HL_L2350DW_series ./output.txt")
+os.system("lpr -P Brother_HL_L2350DW_series ./output.txt")
 
